@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f5f5f5;
+    font-family: 'Avenir Next Cyr';
+    font-size: 150%;
+    color: #5e5b5b;
+    text-align: center;
+}
+
+.margin-top-bottom{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+header{
+    height: 100px;
+    width:100vw;
+    background: #6a7b8b;
+    color: rgb(255, 255, 255);
+}
+
+nav{
+    display:flex;
+    
+}
+
+.header-logo > a > img{
+    width: 35%;
+    height: 56px;
+    padding: 20px;
+    min-width: 100px;
+}
+
+.header-logo {
+    justify-content: center;
+    width: 30%;
+    text-align: left;
+}
+
+.big-text{
+    font-size: 60px;
+    font-weight: 7px;
+
+}
+
+ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 100%
+}
+
+@media only screen and (max-width: 1070px){
+    ul{
+        font-size: 60%;
+    }
+}
+
+nav > ul{
+    display:flex;
+    margin: 0; 
+    padding: 20px;
+    list-style: none;
+    justify-content: flex-end;
+    color: white;
+    width: 70%;
+}
+
+ul > li {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+
+.big-logo > img{
+    width: 207px;
+    height: 207px;
+}
+
+.hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.hero-img >img {
+    width: 70%;
+    height: 795px;    
+}
+
+@media only screen and (max-width: 770px){
+    .hero-img >img{
+        height: 450px;
+    }
+}
+
+.overlay-text{
+    position: absolute;
+    color: white;
+    width: 100%;
+    position: absolute;
+    margin-top: 100px;
+}
+
+
+@media only screen and (max-width: 1070px){
+    .overlay-text{
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    .overlay-text{
+        font-size: 30%;
+    }
+}
+
+
+.three-cards{
+    position: relative;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+
+.card { 
+    background-color: #bac1c8;
+    color: white;    
+    width: 14.5%;
+    min-width: 200px;
+    height: 350px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    box-shadow: 2px 2px 2px rgb(134, 125, 125);
+    padding:40px;
+    font-size: 75%;
+} 
+
+@media only screen and (max-width: 1070px){
+    .card{
+        font-size: 60%;
+    }
+}
+
+
+.card > img{
+    width: 122px;
+    height: 122px;
+    margin-bottom: 50px;
+
+}
+
+
+.centre{
+    text-align: center;
+}
+
+
+button{
+    text-align: centre;
+    background-color:#6a7b8b;
+    border-style: solid;
+    border-radius: 12px;
+    color: white;
+    width: 332px;
+    height: 77px;
+    box-shadow: 2px 2px 2px rgb(134, 125, 125);
+    }
+
+.open-sign{
+    color: #5e5b5b;
+    font-size: 30px;
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+
+.open-sign-img{
+    min-width: 10vw;
+}
+
+.open-sign-img > img {     
+    top: 2156px;
+    left: 142px;
+    width: 107px;
+    height: 107px;
+} 
+
+.four-square{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.two-square{
+    color: #5e5b5b;
+    font-size: 30px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.two-square > div{
+    margin: 50px 50px 50px 50px;
+}
+
+
+
+footer{
+    display:flex;
+    background: #6a7b8b;
+    width:100vw;
+    top: 100px;
+    position: relative;
+    color: white;
+}
+
+.socials > img{
+   width: 28px;
+   height: 28px;
+
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-text{
+    margin-top: 30px;
+}
+
+.footer-logo{
+    width: 40%;
+    text-align: left;
+}
+
+.footer-logo > img {
+    left:50px;
+    width: 53px;
+    height: 78px;
+    padding: 25px;
+    
+}
+
+.about-container{
+ display: flex;
+ flex-direction:row;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-bottom: 10%;
+ text-align: left;
+}
+
+.about-img > img{
+    width: 95%;
+    height: 756px;
+    min-width: 400px;
+}
+
+.about-img{
+    flex: 1;
+}
+
+.about-text{
+    display: flex;
+    flex-direction:column;
+    flex: 1.5;
+    margin-left: 5%;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.about-text > div{
+    margin-bottom: 62px;
+    line-height: 1.5;
+
+}
+
+
+form{
+    width: 60%;
+    text-align:left;
+}
+
+.form-centre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input, textarea, select {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    background-color:#afb9c2;
+    border: none;
+    margin: 30px auto;
+  }
+
+#modal{
+    position: absolute;
+    top: 0;
+    width: 100vw; 
+    height: 100vh; 
+    background-color: rgba(248, 245, 245, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.modal-content{
+    z-index: 1;
+    position: absolute;
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-color:slategrey;
+    border-width: 2px;
+}
+
+.modal-flex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.modal-flex > div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dark-logo > img{
+    width:40%;
+    height:150px;
+}
+.dark-logo{
+    margin-top: 90px;
+    width: 20%;
+}
+
+@media only screen and (max-width: 1070px){
+    .darkLogo{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+.contact-info{
+    display: flex;
+    flex-direction:column;
+    margin-left: 400px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+
+.map{
+    text-align: center;
+}
+
+.map > img{
+    width: 40%;
+    height: 45%;
+    margin-top: 5%;
+}

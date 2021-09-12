@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="application.css">
+    <link href="http://fonts.cdnfonts.com/css/avenir-next-cyr" rel="stylesheet">
+    <script defer src="form.js"></script>
+</head>
+
+
+<body>
+    <header>
+
+        <nav>
+            <div class="header-logo">
+                <a href="/index.html"> <img src="Assets/full_logo_white.png" alt="header logo"></a>
+               
+            </div>
+        
+            <ul>
+                <li><a href="/">Accuiel</a></li>
+                <li><a href="/about.html">Qui sommes-nous?</a></li>
+                <li><a href="/contact.html">Nous contacter</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="big-logo margin-top-bottom">
+        <img src="Assets/logo_mrcoffee.png" alt="main logo">
+    </div>
+
+    <div class="big-text margin-top-bottom">
+        <p>Dites nous tout !</P>
+    </div>
+
+
+
+<div class="form-centre">
+    <form id="form" method="GET">
+        <div>
+            <label for="nom" >Nom *</label>
+                <input type="text" name="nom" id="nom" required>
+        </div>
+
+        <div>
+            <label for="Prénom" >Prénom *</label>
+                <input type="text" name="Prénom" id="Prénom" required>
+        </div>
+
+        <div>
+            <label for="Téléphone" >Téléphone</label>
+                <input type="tel" name="Téléphone" id="Téléphone" >
+        </div>
+
+        <div>
+            <label for="email">Adresse mail *</label>
+                <input type="email" name="Adresse mail" id="email" required>
+        </div>
+
+        <div>
+            <label for="message" >Message *</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Tapez votre message ici" required></textarea>
+        </div>
+
+
+        <div class="centre margin-top-bottom">
+            <button id="submit-btn" type="submit">ENVOYER</button>
+        </div>
+    </div>
+
+</form>
+
+    <div id="modal">
+        <div class="modal-content">
+
+            <div class="dark-logo">
+                <img src="Assets/logo_dark.png" alt="footer logo">
+            </div>
+
+            <div class="modal-flex">
+                    <div>
+                    <h2>MERCI</h2>
+                    </div>
+
+                    <div>
+                    <h3>Votre message a bien été envoyé !</h3>
+                    </div>
+
+                    <div>
+                    <h4>Nous essaierons d’y répondre au mieux dans les plus brefs délais. À bientot chez Mr.Coffee</h4>
+                    </div>
+
+                    <div>
+                    <button id="close-btn" type="button">FERMER</button>
+                    </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="margin-top-bottom big-text">
+        <p>On vous attend !</P>
+    </div>
+
+    <div class="contact-info">
+        <div>
+           <p>Mr.Coffee</p>
+           <p>15 place Jules Guesde</p>
+           <p>75006 Paris</p>
+        </div>
+
+        <div class=>
+           <p>Tel : +33 9 46 25 78 45</p>
+           <p>Mail : contact@mr-coffee.com</p>
+       </div>
+
+    </div>
+
+    <div class="map">
+        <img src="Assets/carte_contact.png" alt="main logo">
+    </div>
+
+
+
+    <footer>
+
+        <div class="footer-logo">
+            <img src="Assets/logo_blanc.png" alt="footer logo">
+        </div>
+
+        <div>
+
+            <div class="footer-text">
+                <p>Suivez nous sur les réseaux sociaux !</p>
+             </div>
+      
+            <div class= "socials">
+                <img src="Assets/logo_linkedin.png" alt="linkedin logo">
+                <img src="Assets/logo_twitter.png" alt="twitter logo">
+                <img src="Assets/logo_facebook.png" alt="facebook logo">
+            </div>
+
+        </div> 
+
+    </footer>
+
+</body>
+</html>
